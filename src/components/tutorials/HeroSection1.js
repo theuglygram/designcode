@@ -67,6 +67,7 @@ const Wrapper = styled.div`
 `;
 const LeftNav = styled.div`
   position: absolute;
+  right: 20px;
 `;
 const RightNav = styled.div`
   position: absolute;

@@ -161,7 +161,6 @@ const HamMenu1 = styled.div`
   top: 10px;
   transform: ${(props) =>
     props.toggle ? "rotate(-45deg) translate(-5px,6px)" : "rotate(0)"};
-  top: 0px;
 `;
 const HamMenu2 = styled.div`
   width: 25px;
@@ -170,7 +169,7 @@ const HamMenu2 = styled.div`
   margin: 1px 2px;
   position: absolute;
   right: 5px;
-  top: 15px;
+  top: 18px;
   transition: 0.9s ease-in;
   -o-transition: 0.9s ease-in;
   -moz-transition: 0.9s ease-in;
