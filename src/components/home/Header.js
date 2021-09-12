@@ -11,12 +11,17 @@ import { ClassLink, SmallText } from "../../styles/GobalStyles";
 import { Link } from "react-router-dom";
 
 const Header = ({ toggle, setToggle, tog, setTog }) => {
+  const toggleHamburger = () => {
+    setToggle(!toggle);
+  };
   return (
     <Wrapper>
       <NavContent>
-        <LogoHolder>
-          <Logo src={logo} onClick={() => setToggle(!toggle)} />
-        </LogoHolder>
+        <Link to="/">
+          <LogoHolder>
+            <Logo src={logo} />
+          </LogoHolder>
+        </Link>
         <LinksHolder>
           <NavLinks>
             <SmallLogo src={book} />
@@ -49,6 +54,12 @@ const Header = ({ toggle, setToggle, tog, setTog }) => {
             <SmallLogo src={account} onClick={() => setTog(!tog)} />
           </NavLinks>
         </LinksHolder>
+
+        <Hamburger onClick={toggleHamburger}>
+          <HamMenu1 toggle={toggle} />
+          <HamMenu2 toggle={toggle} />
+          <HamMenu3 toggle={toggle} />
+        </Hamburger>
       </NavContent>
     </Wrapper>
   );
@@ -118,5 +129,62 @@ const Links = styled(SmallText)`
   :hover {
     cursor: pointer;
   }
+`;
+
+const Hamburger = styled.div`
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: none;
+  background: rgba(15, 14, 71, 0.3);
+  box-shadow: rgb(255 255 255 / 20%) 0px 0px 0px 0.5px inset;
+  backdrop-filter: blur(40px);
+  cursor: pointer;
+
+  @media only screen and (max-width: 1000px) {
+    display: block;
+  }
+`;
+const HamMenu1 = styled.div`
+  width: 30px;
+  height: 2px;
+  background: grey;
+  margin: 1px 2px;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  transform: ${(props) =>
+    props.toggle ? "rotate(-45deg) translate(-5px,6px)" : "rotate(0)"};
+  top: 0px;
+`;
+const HamMenu2 = styled.div`
+  width: 25px;
+  height: 2px;
+  background: grey;
+  margin: 1px 2px;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  transition: 0.9s ease-in;
+  -o-transition: 0.9s ease-in;
+  -moz-transition: 0.9s ease-in;
+  display: ${(props) => (props.toggle ? "none" : "flex")};
+`;
+const HamMenu3 = styled.div`
+  height: 2px;
+  background: grey;
+  position: absolute;
+  right: 5px;
+  top: 25px;
+  margin: 1px 2px;
+  width: ${(props) => (props.toggle ? "30px" : "20px")};
+  transform: ${(props) =>
+    props.toggle ? "rotate(45deg) translate(-5px,-6px)" : "rotate(0)"};
 `;
 export default Header;

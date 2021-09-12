@@ -63,9 +63,6 @@ const Wrapper = styled.div`
   z-index: 9999999;
   transition: 0.7s ease-in-out;
   visibility: ${(props) => (props.toggle ? "visible" : "hidden")};
-  @media only screen and (max-width: 450px) {
-    display: none;
-  }
 `;
 const NavContent = styled.div`
   display: flex;
@@ -78,10 +75,8 @@ const LinksHolder = styled.div`
   padding: 10px 20px;
   flex-direction: column;
   justify-content: space-between;
-  position: absolute;
   width: 220px;
   height: 349px;
-  left: 80px;
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05),
     0px 20px 40px rgba(92, 103, 153, 0.2);

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HeroBackground1 from "../../assets/HeroSection1/HeroBackground1.svg";
+import HeroBackground1 from "../../assets/HeroSection1/HeroBackground1.png";
 import AccessBtn from "../../buttons/AccessBtn";
 import LeftNavigation from "../../NavItems/LeftNavigation";
 import RIghtNavigation from "../../NavItems/RIghtNavigation";
@@ -45,6 +45,7 @@ const Wrapper = styled.div`
 `;
 const LeftNav = styled.div`
   position: absolute;
+  right: 20px;
 `;
 const RightNav = styled.div`
   position: absolute;
