@@ -9,6 +9,7 @@ import Sponsors from "../components/home/Sponsors";
 import InstructorHero from "../components/home/InstructorHero";
 import CardContent from "../components/coursesPage/coursesCards/CardContent";
 import DesignSection from "../components/coursesPage/DesignSection";
+import Footer from "../components/home/Footer";
 
 const Courses = () => {
   useEffect(() => {
@@ -25,9 +26,9 @@ const Courses = () => {
       <CardContent />
       <DesignSection />
       <Sponsors />
-
       <Instructors />
       <InstructorHero />
+      <Footer />
     </Wrapper>
   );
 };
