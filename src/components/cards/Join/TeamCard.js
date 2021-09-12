@@ -154,6 +154,7 @@ const SignBtn = styled.div`
 `;
 const SignUp = styled.button`
   text-align: center;
+  cursor: pointer;
   width: 177px;
   height: 54px;
   background: #ffffff;

@@ -36,5 +36,8 @@ const DescLarge = styled(MidText)`
 
   line-height: 1.5;
 `;
-const PcImg = styled.img``;
+const PcImg = styled.img`
+  width: 100%;
+  max-width: 550px;
+`;
 export default TextSection;
