@@ -38,13 +38,13 @@ const Sponsors = () => {
   );
 };
 const Wrapper = styled.div`
-  margin: 150px 0;
-  z-index: 99999;
+  margin: 100px 0;
+  /* z-index: 99999;
 
   @media only screen and (max-width: 768px) {
     padding: 0 20px;
     margin: 50px 0;
-  }
+  } */
 `;
 const IconsHolder = styled.div`
   max-width: 1025px;

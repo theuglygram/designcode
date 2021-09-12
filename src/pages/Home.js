@@ -20,7 +20,7 @@ const Home = () => {
 
   useEffect(() => {
     document.title = "Designcode | Home";
-  });
+  }, []);
   return (
     <Wrapper>
       <Header setToggle={setToggle} toggle={toggle} setTog={setTog} tog={tog} />

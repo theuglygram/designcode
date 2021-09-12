@@ -28,9 +28,11 @@ const HeroSection5 = () => {
 const Wrapper = styled.div`
   margin: 50px 0;
   position: relative;
+  height: 100%;
 `;
 const HeroWrapper = styled.div`
-  height: 200vh;
+  min-height: 200vh;
+  height: 100%;
   background-image: url(${LargeBackground});
   background-repeat: no-repeat;
   background-position: left;
