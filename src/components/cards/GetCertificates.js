@@ -58,10 +58,7 @@ const DescLarge = styled(MidText)`
 
 const CertImg = styled.div``;
 const Cert = styled.img`
-  max-width: 100%;
-
-  @media only screen and (max-width: 750px) {
-    max-width: 300px;
-  }
+  width: 100%;
+  max-width: 500px;
 `;
 export default GetCertificates;
