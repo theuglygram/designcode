@@ -7,9 +7,9 @@ import HeroSection3 from "../components/tutorials/HeroSection3";
 import Footer from "../components/home/Footer";
 
 const Tutorials = () => {
- useEffect(() => {
+  useEffect(() => {
     document.title = "Designcode | Tutorials";
-  }); 
+  }, []);
   const [toggle, setToggle] = useState(false);
   const [tog, setTog] = useState(false);
   return (

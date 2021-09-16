@@ -67,7 +67,7 @@ const HeroContent = styled.div`
   min-height: 100px;
   height: 100%;
   width: 100%;
-  /* max-width: 460px; */
+  max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;

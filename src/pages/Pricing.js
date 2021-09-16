@@ -9,7 +9,7 @@ import Faq from "../components/pricing/Faq";
 const Pricing = () => {
   useEffect(() => {
     document.title = "Designcode | Pricing";
-  });
+  }, []);
   const [toggle, setToggle] = useState(false);
   const [tog, setTog] = useState(false);
   return (

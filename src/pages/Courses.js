@@ -14,7 +14,7 @@ import Footer from "../components/home/Footer";
 const Courses = () => {
   useEffect(() => {
     document.title = "Designcode | Courses";
-  });
+  }, []);
   const [toggle, setToggle] = useState(false);
   const [tog, setTog] = useState(false);
   return (

@@ -57,7 +57,7 @@ const Wrapper = styled.div`
   display: block;
   z-index: 99999;
   opacity: ${(props) => (props.tog ? 1 : 0)};
-  transition: 0.7s ease-in-out;
+  transition: 2s ease-out;
   visibility: ${(props) => (props.tog ? "visible" : "hidden")};
   @media only screen and (max-width: 450px) {
     display: none;

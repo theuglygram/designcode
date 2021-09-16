@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.762bff57.chunk.css",
-    "main.js": "/static/js/main.7b3b8c4d.chunk.js",
-    "main.js.map": "/static/js/main.7b3b8c4d.chunk.js.map",
+    "main.js": "/static/js/main.545cdde3.chunk.js",
+    "main.js.map": "/static/js/main.545cdde3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3fc399bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.3fc399bc.js.map",
     "static/js/2.c5ed0f62.chunk.js": "/static/js/2.c5ed0f62.chunk.js",
@@ -39,6 +39,7 @@
     "static/media/compass.2c1049ee.svg": "/static/media/compass.2c1049ee.svg",
     "static/media/computer.406f79f2.svg": "/static/media/computer.406f79f2.svg",
     "static/media/courses.677bbe59.svg": "/static/media/courses.677bbe59.svg",
+    "static/media/downloadBackground.be8afb66.svg": "/static/media/downloadBackground.be8afb66.svg",
     "static/media/downloads.5a34a0bb.svg": "/static/media/downloads.5a34a0bb.svg",
     "static/media/downloads.9e438f82.svg": "/static/media/downloads.9e438f82.svg",
     "static/media/facebook.440cbbff.svg": "/static/media/facebook.440cbbff.svg",
@@ -96,6 +97,6 @@
     "static/js/runtime-main.3fc399bc.js",
     "static/js/2.c5ed0f62.chunk.js",
     "static/css/main.762bff57.chunk.css",
-    "static/js/main.7b3b8c4d.chunk.js"
+    "static/js/main.545cdde3.chunk.js"
   ]
 }
