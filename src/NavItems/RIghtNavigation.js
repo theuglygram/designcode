@@ -24,25 +24,25 @@ const RIghtNavigation = ({ tog }) => {
           <NavLinks>
             <SmallLogo src={cert} />
             <Links>
-              <Link to="/Courses">Certificates</Link>
+              <Link to="/">Certificates</Link>
             </Links>
           </NavLinks>
           <NavLinks>
             <SmallLogo src={billing} />
             <Links>
-              <Link to="/Pricing">Billing</Link>
+              <Link to="/">Billing</Link>
             </Links>
           </NavLinks>
           <NavLinks>
             <SmallLogo src={profile} />
             <Links>
-              <Link to="/Pricing">Profile</Link>
+              <Link to="/">Profile</Link>
             </Links>
           </NavLinks>
           <NavLinks>
             <SmallLogo src={sign} />
             <Links>
-              <Link to="/Pricing">Sign Out</Link>
+              <Link to="/SignUp">Sign Up</Link>
             </Links>
           </NavLinks>
         </LinksHolder>

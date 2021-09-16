@@ -30,30 +30,34 @@ const DownloadCards = () => {
   ];
   const firstSection2 = [
     {
-      title: "UI Design for developers.zip",
+      title: "Collection 3.zip",
       Day: "Modified 6/18/2020, 8:32 AM",
     },
     {
-      title: "UI Design for developers.zip",
+      title: "Collection 2.zip",
       Day: "Modified 6/18/2020, 8:32 AM",
     },
     {
-      title: "UI Design for developers.zip",
+      title: "Collection 1.zip",
       Day: "Modified 6/18/2020, 8:32 AM",
     },
   ];
 
   const secondSection = [
     {
-      title: "UI Design for developers.zip",
+      title: "UI Design for developers.ebub",
       Day: "Modified 6/18/2020, 8:32 AM",
     },
     {
-      title: "UI Design for developers.zip",
+      title: "SwiftUI Part 3.epub",
       Day: "Modified 6/18/2020, 8:32 AM",
     },
     {
-      title: "UI Design for developers.zip",
+      title: "SwiftUI Part 2.epub",
+      Day: "Modified 6/18/2020, 8:32 AM",
+    },
+    {
+      title: "SwiftUI Part 1.epub",
       Day: "Modified 6/18/2020, 8:32 AM",
     },
   ];
@@ -467,6 +471,7 @@ const CardWrapper = styled.div`
   }
   @media only screen and (max-width: 720px) {
     grid-template-columns: 1fr;
+    place-items: center;
   }
 `;
 const LeftCard = styled.div``;
