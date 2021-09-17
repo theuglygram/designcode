@@ -55,12 +55,12 @@ const Wrapper = styled.div`
   position: relative;
   width: 100%;
   display: block;
-  z-index: 99999;
+  z-index: 999;
   opacity: ${(props) => (props.tog ? 1 : 0)};
   transition: 2s ease-out;
   visibility: ${(props) => (props.tog ? "visible" : "hidden")};
   @media only screen and (max-width: 450px) {
-    display: none;
+    /* display: none; */
   }
 `;
 const NavContent = styled.div`
